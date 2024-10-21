@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://gitee.com/lwd1314_admin/tuzi_robot_help.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+	vscode-merge-base = origin/master
+[remote "help"]
+	url = https://github.com/tuzirpa/help.git
+	fetch = +refs/heads/*:refs/remotes/help/*
+[branch "github"]
+	vscode-merge-base = origin/master
